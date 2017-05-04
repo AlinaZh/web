@@ -42,7 +42,26 @@ require_once('inc/layout.php');
 <!--[if lt IE 9]>
 		<script src="<?php echo JUri::root(true); ?>/media/jui/js/html5.js"></script>
 	<![endif]-->
-
+ <script type="application/ld+json">
+{
+  "@context" : "http://aljoy.kz",
+  "@type" : "Blog",
+  "name" : "Aljoy",
+  "url" : "http://aljoy.kz",
+  "sameAs" : [
+    "https://plus.google.com/u/0/104200588957483219188",
+    "https://www.facebook.com/profile.php?id=100002198800967",
+    "https://twitter.com/aniel_30?lang=ru"
+   ],
+  "address": {
+    "@type": "Address",
+    "streetAddress": "Akniet",
+    "addressRegion": "Astana",
+    "postalCode": "010018",
+    "addressCountry": "Kazakhstan"
+  }
+}
+</script>
    
 </head>
 
@@ -148,83 +167,17 @@ require_once('inc/layout.php');
                <a href="https://www.gavick.com/joomla-templates/photography-portfolio" rel="nofollow">designed by GavickPro </a>
           </p>-->
           <p class="footer__copyrights_text">
-              Жумадилова Алина 2017
+            &copy Жумадилова Алина 2017
           </p>
           <?php else : ?>
          <!--  <p class="footer__copyrights_text">
                Responsive Joomla Portfolio Template designed by GavickPro
           </p>-->
           <p class="footer__copyrights_text">
-              Жумадилова Алина 2017
+             &copy Жумадилова Алина 2017
           </p>
           <?php endif; ?>
-     </div>
-      
-     <!-- .footer__copyrights -->
-
-</footer>
-<!-- .footer -->
-
-<jdoc:include type="modules" name="debug" style="none" />
-
-   <script>
-  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
-  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
-  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
-  })(window,document,'script','https://www.google-analytics.com/analytics.js','ga');
-
-  ga('create', 'UA-97381649-1', 'auto');
-  ga('send', 'pageview');
-
-</script>
-  <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
-    (function (d, w, c) {
-        (w[c] = w[c] || []).push(function() {
-            try {
-                w.yaCounter44216229 = new Ya.Metrika({
-                    id:44216229,
-                    clickmap:true,
-                    trackLinks:true,
-                    accurateTrackBounce:true
-                });
-            } catch(e) { }
-        });
-
-        var n = d.getElementsByTagName("script")[0],
-            s = d.createElement("script"),
-            f = function () { n.parentNode.insertBefore(s, n); };
-        s.type = "text/javascript";
-        s.async = true;
-        s.src = "https://mc.yandex.ru/metrika/watch.js";
-
-        if (w.opera == "[object Opera]") {
-            d.addEventListener("DOMContentLoaded", f, false);
-        } else { f(); }
-    })(document, window, "yandex_metrika_callbacks");
-</script>
-<noscript><div><img src="https://mc.yandex.ru/watch/44216229" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
-<!-- /Yandex.Metrika counter -->
-  <script type="application/ld+json">
-{
-  "@context" : "http://aljoy.kz",
-  "@type" : "Blog",
-  "name" : "Aljoy",
-  "url" : "http://aljoy.kz",
-  "sameAs" : [
-    "https://plus.google.com/u/0/104200588957483219188",
-    "https://www.facebook.com/profile.php?id=100002198800967",
-    "https://twitter.com/aniel_30?lang=ru"
-   ],
-  "address": {
-    "@type": "Address",
-    "streetAddress": "Akniet",
-    "addressRegion": "Astana",
-    "postalCode": "010018",
-    "addressCountry": "Kazakhstan"
-  }
-}
-</script>
+          </script>
         <!-- ZERO.kz -->
 <span id="_zero_68881">
 <noscript>
@@ -250,6 +203,61 @@ _zero_kz_.push(["type", 1]);
 })(); //-->
 </script>
 <!-- End ZERO.kz -->
+<!-- Yandex.Metrika informer -->
+<a href="https://metrika.yandex.kz/stat/?id=44216229&amp;from=informer"
+target="_blank" rel="nofollow"><img src="https://informer.yandex.ru/informer/44216229/3_0_FFFFFFFF_EFEFEFFF_0_pageviews"
+style="width:88px; height:31px; border:0;" alt="Яндекс.Метрика" title="Яндекс.Метрика: данные за сегодня (просмотры, визиты и уникальные посетители)" class="ym-advanced-informer" data-cid="44216229" data-lang="ru" /></a>
+<!-- /Yandex.Metrika informer -->
+
+<!-- Yandex.Metrika counter -->
+<script type="text/javascript">
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter44216229 = new Ya.Metrika({
+                    id:44216229,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true,
+                    webvisor:true,
+                    ecommerce:"dataLayer"
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+</script>
+<noscript><div><img src="https://mc.yandex.ru/watch/44216229" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- /Yandex.Metrika counter -->
+    <!--LiveInternet counter--><script type="text/javascript">
+document.write("<a href='//www.liveinternet.ru/click' "+
+"target=_blank><img src='//counter.yadro.ru/hit?t52.1;r"+
+escape(document.referrer)+((typeof(screen)=="undefined")?"":
+";s"+screen.width+"*"+screen.height+"*"+(screen.colorDepth?
+screen.colorDepth:screen.pixelDepth))+";u"+escape(document.URL)+
+";"+Math.random()+
+"' alt='' title='LiveInternet: показано число просмотров и"+
+" посетителей за 24 часа' "+
+"border='0' width='88' height='31'><\/a>")
+</script><!--/LiveInternet-->
+     </div>
+      
+     <!-- .footer__copyrights -->
+
+</footer>
+<!-- .footer -->
+
+<jdoc:include type="modules" name="debug" style="none" />
 
 </body>
 </html>

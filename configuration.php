@@ -44,7 +44,7 @@ class JConfig {
 	public $cache_handler = 'file';
 	public $cachetime = '15';
 	public $cache_platformprefix = '0';
-	public $MetaDesc = 'Aljoy - персональный блог. Интересное о книгах, сериалах, фильмах, спорте, местах и событиях в Алматы и Астане.';
+	public $MetaDesc = 'Если вы любите книги, поэзию, фильмы и сериалы,спорт - Aljoy то что вам нужно!';
 	public $MetaKeys = 'книга, фильм, сериал, спорт, фигура, где погулять в Астане, в Алматы ';
 	public $MetaTitle = '1';
 	public $MetaAuthor = '1';

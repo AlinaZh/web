@@ -27,8 +27,8 @@ div.camera_thumbs_cont {
 	margin-bottom: 35px;
 }
 .camera_caption > div {
-	background: #000;
-	background: rgba(0,0,0, 0.7);
+	/*background: #000;*/
+	/*background: rgba(0,0,0, 0.7);*/
 	border-radius: 0 5px 5px 0;
 	-moz-border-radius: 0 5px 5px 0;
 }
