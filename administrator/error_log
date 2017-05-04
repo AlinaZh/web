@@ -1,0 +1,5 @@
+[29-Apr-2017 12:36:34 Asia/Almaty] PHP Strict Standards:  Only variables should be assigned by reference in /home/aljoykz/public_html/administrator/components/com_jsecurelite/controller.php on line 62
+[29-Apr-2017 12:37:00 Asia/Almaty] PHP Strict Standards:  Only variables should be assigned by reference in /home/aljoykz/public_html/administrator/components/com_jsecurelite/views/basic/view.html.php on line 56
+[29-Apr-2017 12:37:00 Asia/Almaty] PHP Strict Standards:  Only variables should be assigned by reference in /home/aljoykz/public_html/administrator/components/com_jsecurelite/views/basic/view.html.php on line 69
+[29-Apr-2017 12:37:00 Asia/Almaty] PHP Strict Standards:  Only variables should be assigned by reference in /home/aljoykz/public_html/administrator/components/com_jsecurelite/views/basic/view.html.php on line 114
+[29-Apr-2017 12:37:01 Asia/Almaty] PHP Strict Standards:  Only variables should be assigned by reference in /home/aljoykz/public_html/administrator/components/com_jsecurelite/controller.php on line 62

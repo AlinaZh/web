@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding ="utf-8" ?>
+<extension type ="module" version="3.6.5" client="site" method="upgrade">
+	<name>mod_header</name>
+	<author>Alina Zhumadilova</author>
+	<creationDate>04.05.2017</creationDate>
+	<copyright>Copyright (C) 2017. All right reserved</copyright>
+	<license>Payment</license>
+	<authorEmail>zhumadilova.alina@gmail.com</authorEmail>
+	<authorUrl>aljoy.kz</authorUrl>
+	<version>1.0</version>
+	<description> Модуль - "Module for header part"</description>
+<files>
+	<folder>tmpl</folder>
+	<filename>helper.php</filename>
+	<filename module="mod_header">mod_header.php</filename>
+</files>
+<languages>
+	<language tag="ru-RU">ru-RU.mod_header.ini</language>
+</languages>
+<config>
+	<fields name="params">
+		<fieldset name="basic">
+			<field name="count" type="text" default="5" label="MOD_HEADER_COUNT_LABEL" description="MOD_HEADER_COUNT_DESC"/>
+			
+		</fieldset>
+	</fields>
+	
+</config>
+</extension>

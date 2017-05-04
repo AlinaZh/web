@@ -1,0 +1,1 @@
+define("nls/ru/skills",["require","exports","module"],function(require,exports,module){"use strict";module.exports={Cancel:"Отменить",Save:"Сохранить","Saving...":"Сохранение…"}});
