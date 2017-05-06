@@ -1,6 +1,6 @@
 # Aljoy
 
-* [ALjoy](http://www.aljoy.kz) - Персональный блог
+* [ALjoy](http://www.aljoy.kz) - personal blog website
 
 
 ## Built With
