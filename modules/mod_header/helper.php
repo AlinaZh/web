@@ -10,7 +10,7 @@ defined('_JEXEC') or die;
 require_once JPATH_SITE . '/components/com_content/helpers/route.php';
 
 class ModHeaderHelper{
-	public function getList($params){
+	public static function getList($params){
 
 		$db = JFactory::getDbo();
 		$query = $db -> getQuery(true);
@@ -19,7 +19,7 @@ class ModHeaderHelper{
 		$query->from($db->quoteName('xftsg_content'));
 		$query->where('state = 1');
 		$query->order('ordering DESC');
-		$query->setLimit('3');
+		$query->setLimit('1');
 
 		$db->setQuery($query);
 		$result = $db->loadObjectList();
