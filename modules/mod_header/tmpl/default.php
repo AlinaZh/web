@@ -12,12 +12,14 @@ require_once JPATH_SITE . '/components/com_content/helpers/route.php';
 ?>
 
 
-<div class="hdwrapper">
+<div class="hdwrapper" style="text-align:center">
 	<div class="callaction">
 					<?php foreach ($list as $key => $item) {?>
-
 					
-					<a href="<?php echo $link; ?>"><h3><?php echo $item->title; ?></h3></a>
+					<?php
+					$slug = $item->id.'-'.$item->alias;
+					$link = JRoute::_(ContentHelperRoute::getArticleRoute($slug, $item->catid));?>
+					<h1><a style="font-size:3rem" href="<?php echo $link; ?>"<i class="fa fa-pencil" aria-hidden="true"> Последняя статья: <?php echo $item->title; ?></i></a></h1>
 					
 					<?php }?>
 	</div>	
